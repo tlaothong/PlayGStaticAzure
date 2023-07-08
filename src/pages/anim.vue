@@ -10,11 +10,6 @@
     <Transition name="fade">
       <div v-if="isOpen"
         class="max-w-sm bg-green-400 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <img class="rounded-t-lg"
-            src="/docs/images/blog/image-1.jpg"
-            alt="" />
-        </a>
         <div class="p-5">
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
@@ -54,6 +49,7 @@ const isOpen = ref(false);
   opacity: 0;
   transform: translateY(-130px);
 }
+
 .fade-leave-to {
   opacity: 0;
   transform: translateY(-130px);
