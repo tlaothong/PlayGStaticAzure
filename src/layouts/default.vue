@@ -1,6 +1,8 @@
 <template>
   <div class="p-4">
-    <h1>Default Layout</h1>
+    <NuxtLink to="/">
+      <h1>Home</h1>
+    </NuxtLink>
     <slot></slot>
   </div>
 </template>
